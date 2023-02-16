@@ -1,13 +1,14 @@
-import { useState } from 'react'
+import React from 'react'
+import { Navbar , About , Hero , Profile , Tech } from './components'
+import styles from '../styles'
 
-
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
-    <div className="App">
-      <h1 className='bg-red-300'>Ratchasri Kidking</h1>
+    <div>
 
+      <Navbar/>
+      <Hero/>
+      
     </div>
   )
 }
