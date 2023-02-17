@@ -3,9 +3,12 @@ import styles from '../../styles'
 
 const Navbar = () => {
   return (
-    <div>
-      Navbar
-
+    
+    <div className={`${styles.xPaddings}`}>
+      <img src="" alt="" />
+      <div>
+        <ul><a href=""> About Me </a></ul>
+      </div>
      
 
     
