@@ -1,6 +1,6 @@
 import React from 'react'
 import { Navbar , About , Hero , Profile , Tech } from './components'
-import styles from '../styles'
+import styles from '../style'
 
 const App = () => {
   return (
