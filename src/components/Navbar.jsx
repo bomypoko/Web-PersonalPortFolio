@@ -4,7 +4,7 @@ import styles from '../../style'
 const Navbar = () => {
   return (
 
-    <div className={`${styles.xPaddings} flex justify-between items-center m-5` } >
+    <div className={`${styles.flexCenter} p-3 w-full flex justify-between`}>
 
       <img src="" alt="Logo" />
 
